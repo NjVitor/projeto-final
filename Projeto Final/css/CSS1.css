@@ -8,7 +8,7 @@
 }
 
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -27,14 +27,14 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(27, 17, 23);
-    height: 8vh;
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
 }
 
 main{
-    background: url("flor.jpg") no-repeat center center ;
+    background: url("../img/flor.jpg") no-repeat center center ;
     background-size: cover;
-    height: 92vh;
+    height: 90vh;
 }
 
 .nav-list{
@@ -59,7 +59,7 @@ main{
 .mobile-menu div{
     width: 32px;
     height: 2px;
-    background: white;
+    background: rgb(0, 0, 0);
     margin: 8px;
     transition: 0.3s;
 
@@ -76,7 +76,7 @@ main{
         right: 0;
         width: 100vw;
         height: 92vh;
-        background-color: rgb(27, 17, 23);
+        background-color: rgb(255, 255, 255);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -126,3 +126,21 @@ main{
         transform: rotate(45deg) translate(-5px, -7px);
         
     }
+
+    .card{
+        border: none;
+
+    }
+
+
+    .paragrafo1{
+        text-align: center;
+
+    }
+
+    .cartao1{
+        float: right;
+
+    }
+
+
