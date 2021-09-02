@@ -66,10 +66,40 @@ main{
 
 }
 
+.titulo{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    text-align: center
+
+
+}
+
+.titulo1{
+    font-size: 40px; 
+    background-color: #ffffff;
+    padding: 0 10px;
+
+
+}
+
 @media (max-width: 999px) {
     body{
         overflow-x: hidden;
     }
+
+    p{
+        margin-top: 30px;
+
+
+    }
+
+    .coluna2{
+        border: none;
+        padding: 0;
+
+    }
+
     .nav-list{
         position: absolute;
         top: 8vh;
@@ -82,7 +112,29 @@ main{
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        
+    }
+
+    
+    .titulo1{
+        font-size:  20px;
+
+
+    }
+
+    .titulo{
+        width: 100%;
+        height: 15px;
+        border-bottom: 1px solid black;
+        text-align: center
+    
+    
+    }
+
+    .paragrafo1{
+        font-size: 15px;
+
+
+
     }
 
     .nav-list li{
@@ -143,4 +195,20 @@ main{
 
     }
 
+    .coluna2{
+        border-left: 0.5px black solid;
+        padding-left: 30px;
+        box-sizing: border-box;
+    
 
+
+
+    }
+
+    p{
+        text-align: justify;
+
+
+    }
+      
+      
