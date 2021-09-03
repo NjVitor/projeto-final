@@ -94,6 +94,31 @@ main{
 
     }
 
+    .paragrafo3{
+        padding: 10px;
+    }
+
+    .paragrafo4{
+        padding: 10px;
+
+    }
+
+    .Titulo-lista{
+        padding: 10px;
+
+    }
+
+    .Titulo-lista2{
+        padding: 10px;
+
+
+    }
+
+    .card{
+        margin: auto;
+
+    }
+
     .coluna2{
         border: none;
         padding: 0;
@@ -211,4 +236,14 @@ main{
 
     }
       
-      
+    .Titulo-lista{
+        width: 300px;
+
+    }  
+
+    .Titulo-lista2{
+        width: 400px;
+        margin-top: 40px;
+
+
+    }
